@@ -59,10 +59,10 @@ Call example:
 ```c#
 if (TryConvertAudio2ogg(musicPath, outputPath, 48000))
 {
-Debug.Log($"Audio conversion successful!"); );
+    Debug.Log($"Audio conversion successful!");
 }
 else
 {
-Debug.Log($"Audio conversion failed!"); );
+    Debug.Log($"Audio conversion failed!");
 }
 ```
